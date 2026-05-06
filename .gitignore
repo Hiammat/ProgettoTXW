@@ -11,3 +11,6 @@ Servers/
 # Cartelle di output
 build/
 bin/
+
+# File MacOS
+*.DS_Store
