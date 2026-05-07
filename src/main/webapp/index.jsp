@@ -26,7 +26,7 @@
                 transition: color 0.3s;
             }
             .bounce-icon:hover {
-                color: #FFD700 !important; /* Diventa gialla al passaggio del mouse */
+                color: #FFD700 !important; 
             }
         </style>
     </head>
@@ -52,10 +52,9 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn-outline-light" type="submit">
-                            <i class="bi-cart-fill me-1"></i>
+                        <button class="btn btn-outline-light d-flex align-items-center" type="submit">
+                            <i class="bi-person-fill me-2"></i>
                             Profilo
-                            <span class="badge bg-light text-dark ms-1 rounded-pill">0</span>
                         </button>
                     </form>
                 </div>
@@ -87,6 +86,9 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Il Padrino</h5>
+                                    <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
+                                        <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.9</span>
+                                    </div>
                                     <p class="text-light small mb-0 opacity-75">Drammatico • 1972</p>
                                 </div>
                             </div>
@@ -103,14 +105,14 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Interstellar</h5>
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div>
+                                    <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
+                                        <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.7</span>
                                     </div>
                                     <p class="text-light small mb-0 opacity-75">Fantascienza • 2014</p>
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Recensioni</a></div>
+                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
@@ -122,6 +124,9 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Pulp Fiction</h5>
+                                    <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
+                                        <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.8</span>
+                                    </div>
                                     <p class="text-light small mb-0 opacity-75">Thriller • 1994</p>
                                 </div>
                             </div>
@@ -137,14 +142,14 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Il Signore degli Anelli</h5>
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div>
+                                    <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
+                                        <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.9</span>
                                     </div>
                                     <p class="text-light small mb-0 opacity-75">Fantasy • 2001</p>
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Recensioni</a></div>
+                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
