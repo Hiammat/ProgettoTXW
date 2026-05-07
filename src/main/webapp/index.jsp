@@ -10,6 +10,25 @@
         <link rel="icon" type="image/png" href="assets/img/icona.png" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="css/styles-home.css" rel="stylesheet" />
+        
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            @keyframes bounce {
+                0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+                40% { transform: translateY(-15px); }
+                60% { transform: translateY(-7px); }
+            }
+            .bounce-icon {
+                animation: bounce 2s infinite;
+                display: inline-block;
+                transition: color 0.3s;
+            }
+            .bounce-icon:hover {
+                color: #FFD700 !important; /* Diventa gialla al passaggio del mouse */
+            }
+        </style>
     </head>
     
     <body style="background-color: #0B0B0D;">
@@ -43,22 +62,28 @@
             </div>
         </nav>
 
-        <header class="pt-3 pb-5" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('assets/img/sfondo.png'); background-size: cover; background-position: center;">
-            <div class="container px-4 px-lg-5 mt-2 mb-5">
-                <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder" style="text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);">Ciak Club</h1>
-                    <p class="lead fw-normal mb-0" style="color: #FFFFFF; text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);">La prima community 100% italiana dove discutere dei tuoi film preferiti</p>
+        <header class="d-flex align-items-center relative" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('assets/img/sfondo.png'); background-size: cover; background-position: center; min-height: 80vh;">
+            <div class="container px-4 px-lg-5 text-center mt-5">
+                <div class="text-white">
+                    <h1 class="display-3 fw-bolder" style="text-shadow: 3px 3px 10px rgba(0, 0, 0, 1);">Ciak Club</h1>
+                    <p class="lead fw-normal mb-5 fs-3" style="color: #FFFFFF; text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);">La prima community 100% italiana dove discutere dei tuoi film preferiti</p>
+                </div>
+                
+                <div class="mt-5 pt-4">
+                    <a href="#catalogo" class="text-white text-decoration-none">
+                        <i class="bi bi-chevron-down bounce-icon" style="font-size: 3.5rem; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);"></i>
+                    </a>
                 </div>
             </div>
         </header>
 
-        <section class="py-5">
+        <section id="catalogo" class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg&text=Il+Padrino" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Il+Padrino" alt="Locandina" style="object-fit: cover; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Il Padrino</h5>
@@ -74,7 +99,7 @@
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novità</div>
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg&text=Interstellar" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Interstellar" alt="Locandina" style="object-fit: cover; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Interstellar</h5>
@@ -93,7 +118,7 @@
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Cult</div>
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg&text=Pulp+Fiction" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Pulp+Fiction" alt="Locandina" style="object-fit: cover; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Pulp Fiction</h5>
@@ -108,7 +133,7 @@
 
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg&text=LOTR" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=LOTR" alt="Locandina" style="object-fit: cover; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Il Signore degli Anelli</h5>
