@@ -62,6 +62,9 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Il Padrino</h5>
+                                     <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div>
+                                    </div>
                                     <p class="text-light small mb-0 opacity-75">Drammatico • 1972</p>
                                 </div>
                             </div>
@@ -85,7 +88,7 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Recensioni</a></div>
+                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
@@ -97,6 +100,9 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Pulp Fiction</h5>
+                                     <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div>
+                                    </div>
                                     <p class="text-light small mb-0 opacity-75">Thriller • 1994</p>
                                 </div>
                             </div>
@@ -119,7 +125,7 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Recensioni</a></div>
+                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Scheda film</a></div>
                             </div>
                         </div>
                     </div>

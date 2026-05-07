@@ -44,13 +44,13 @@
             </div>
         </nav>
         <!-- Product section-->
-        <section class="py-5 " style="background-color: #0B0B0D;">
+        <section class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="row gx-4 gx-lg-5 align-items-center">
                     <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt="..." /></div>
                     <div class="col-md-6">
                         <div class="small mb-1 text-white">SKU: BST-498</div>
-                        <h1 class="display-5 fw-bolder text-white">Shop item template</h1>
+                        <h1 class="display-5 fw-bolder text-white">Il Padrino</h1>
                         <div class="fs-5 mb-5 text-white">
                             <span class="text-decoration-line-through">$45.00</span>
                             <span>$40.00</span>
@@ -68,7 +68,7 @@
             </div>
         </section>
         <!-- Related items section-->
-        <section class="py-5" style="background-color: #0B0B0D;">
+        <section class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
             <div class="container px-4 px-lg-5 mt-5 text-white">
                 <h2 class="fw-bolder mb-4">Related products</h2>
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -174,8 +174,8 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        <footer class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
+            <div class="container"><p class="m-0 text-center text-white-50">Copyright &copy; Your Website 2023</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
