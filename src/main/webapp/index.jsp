@@ -52,7 +52,7 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn-outline-light d-flex align-items-center" type="submit">
+                        <button class="btn btn-outline-success d-flex align-items-center" type="submit">
                             <i class="bi-person-fill me-2"></i>
                             Profilo
                         </button>
