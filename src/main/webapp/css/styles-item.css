@@ -3130,7 +3130,6 @@ textarea.form-control-lg {
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   text-decoration: underline;
 }
-
 .btn-link:focus-visible {
   color: var(--bs-btn-color);
 }
@@ -10824,15 +10823,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-  .carrello-btn {
-    background-color: white !important;
-    color: #a1060e !important;
-    border: 2px solid white !important;
-}
-
-.carrello-btn:hover {
-    background-color: #a1060e !important;
-    color: white !important;
-    border: 2px solid #a1060e !important;
-}
 }
