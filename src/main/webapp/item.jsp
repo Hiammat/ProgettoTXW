@@ -38,12 +38,25 @@
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <button class="btn btn-outline-success d-flex align-items-center" type="button">
-                            <i class="bi-person-fill me-2"></i>
-                            Profilo
-                        </button>
-                    </form>
+					<div class="d-flex gap-2">
+					    <% 
+					        // CONTROLLO SESSIONE: Sostituisci "utenteLoggato" con il nome dell'attributo che userai nel backend
+					        if (session.getAttribute("utenteLoggato") == null) { 
+					    %>
+					        <a href="login.jsp" class="btn btn-outline-light">Accedi</a>
+					        <a href="registrazione.jsp" class="btn btn-success">Registrati</a>
+					        
+					    <% } else { %>
+					    
+					        <a href="profilo.jsp" class="btn btn-outline-success d-flex align-items-center">
+					            <i class="bi-person-fill me-2"></i> Profilo
+					        </a>
+					        <a href="logout.jsp" class="btn btn-outline-danger d-flex align-items-center" title="Esci">
+					            <i class="bi-box-arrow-right"></i>
+					        </a>
+					        
+					    <% } %>
+					</div>
                 </div>
             </div>
         </nav>
