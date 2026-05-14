@@ -38,7 +38,6 @@
                             </ul>
                         </li>
                     </ul>
-<<<<<<< Updated upstream
 					<div class="d-flex gap-2">
 					    <% 
 					        // CONTROLLO SESSIONE: Sostituisci "utenteLoggato" con il nome dell'attributo che userai nel backend
@@ -58,54 +57,31 @@
 					        
 					    <% } %>
 					</div>
-=======
                     <form class="d-flex">
                         <button class="btn btn-outline-purple" type="submit">
                             <i class="bi-cart-fill me-1"></i>
                             Cart
                             <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                         </button>
-                    </form>
->>>>>>> Stashed changes
-                </div>
+                    </form></div>
             </div>
         </nav>
-<<<<<<< HEAD
         <!-- Product section-->
         <section class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
-=======
-
-        <section class="py-5">
->>>>>>> c84c462a690762da8c7f63a9627e173ad455faa3
-            <div class="container px-4 px-lg-5 my-5">
+ <section class="py-5"><div class="container px-4 px-lg-5 my-5">
+       
                 <div class="row gx-4 gx-lg-5 align-items-center">
-<<<<<<< Updated upstream
                     <div class="col-md-6 text-center text-md-start">
-                        <img class="card-img-top mb-5 mb-md-0 rounded shadow" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Interstellar" alt="Locandina Film" style="max-height: 600px; width: auto; object-fit: cover;" />
+                        <img class="card-img-top mb-5 mb-md-0 rounded shadow" src="assets/img/Interstellar.png"  style="max-height: 600px; width: auto; object-fit: contain;" />
                     </div>
-                    
-=======
-                    <<div class="col-md-6">  
-                    <img class="img-fluid" src="assets/img/ILPADRINO.png" style="max-width: 450px; height: auto;">
-                    </div>
->>>>>>> Stashed changes
                     <div class="col-md-6">
-<<<<<<< HEAD
-                        <div class="small mb-1 text-white">SKU: BST-498</div>
-                        <h1 class="display-5 fw-bolder text-white">Il Padrino</h1>
-<<<<<<< Updated upstream
-                        <div class="fs-5 mb-5 text-white">
-                            <span class="text-decoration-line-through">$45.00</span>
-                            <span>$40.00</span>
-=======
-                        <div class="small mb-1 text-white-50">Fantascienza • 2014 • 169 min</div>
+                            <div class="small mb-1 text-white-50">Fantascienza • 2014 • 169 min</div>
                         <h1 class="display-5 fw-bolder text-white mb-2">Interstellar</h1>
                         
                         <div class="d-flex align-items-center fs-5 mb-4 text-warning">
                             <i class="bi-star-fill me-2"></i>
                             <span class="fw-bold text-light">4.7</span>
                             <span class="text-white-50 ms-2 fs-6">/ 5 (Basato su 1.2k recensioni)</span>
->>>>>>> c84c462a690762da8c7f63a9627e173ad455faa3
                         </div>
                         
                         <h5 class="fw-bold text-white mb-3">Trama</h5>
@@ -119,7 +95,6 @@
                             <button class="btn btn-outline-light flex-shrink-0" type="button">
                                 <i class="bi-pencil-square me-1"></i>
                                 Scrivi Recensione
-=======
                         <div class="fd-flex justify-content-center small text-warning mb-2">
                           <i class="bi-star-fill"></i><i class="bi-star-fill"></i ><i class="bi-star-fill"></i ><i  class="bi-star-fill"></i ><i class="bi-star-fill"></i >
                           <span>5/5</span>
@@ -129,24 +104,18 @@
                             <button class="btn btn-outline-purple flex-shrink-0" type="button">
                                 <i class="bi-cart-fill me-1"></i>
                                 Add to cart
->>>>>>> Stashed changes
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-<<<<<<< HEAD
         <!-- Related items section-->
         <section class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
             <div class="container px-4 px-lg-5 mt-5 text-white">
-                <h2 class="fw-bolder mb-4">Related products</h2>
-=======
-
-        <section class="py-5 bg-dark">
+                <h2 class="fw-bolder mb-4">Related products</h2><section class="py-5 bg-dark">
             <div class="container px-4 px-lg-5 mt-5">
                 <h2 class="fw-bolder mb-4 text-white">Potrebbero piacerti anche...</h2>
->>>>>>> c84c462a690762da8c7f63a9627e173ad455faa3
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     
                     <div class="col mb-5">
@@ -224,15 +193,12 @@
                 </div>
             </div>
         </section>
-<<<<<<< HEAD
         <!-- Footer-->
         <footer class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
             <div class="container"><p class="m-0 text-center text-white-50">Copyright &copy; Your Website 2023</p></div>
-=======
 
         <footer class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
             <div class="container"><p class="m-0 text-center text-white-50">Copyright &copy; Ciak Club 2026</p></div>
->>>>>>> c84c462a690762da8c7f63a9627e173ad455faa3
         </footer>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

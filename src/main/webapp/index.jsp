@@ -51,14 +51,13 @@
                             </ul>
                         </li>
                     </ul>
-<<<<<<< Updated upstream
 					<div class="d-flex gap-2">
 					    <% 
 					        //!!!!!! CONTROLLO SESSIONE: Sostituisci "utenteLoggato" con il nome dell'attributo nel backend (oppure possiamo usare direttamente utenteLoggato) !!!!!!!!!
 					        if (session.getAttribute("utenteLoggato") == null) { 
 					    %>
-					        <a href="login.jsp" class="btn btn-outline-light">Accedi</a>
-					        <a href="registrazione.jsp" class="btn btn-success">Registrati</a>
+					        <a href="login.jsp" class="btn btn-outline-purple">Accedi</a>
+					        <a href="registrazione.jsp" class="btn btn-outline-purple">Registrati</a>
 					        
 					    <% } else { %>
 					    
@@ -71,14 +70,12 @@
 					        
 					    <% } %>
 					</div>
-=======
                     <form class="d-flex">
                         <button class="btn btn-outline-purple" type="submit">
                             <i class="bi-cart-fill me-1"></i>
                             Profilo
                             <span class="badge bg-light text-dark ms-1 rounded-pill">0</span>
                         </button>
->>>>>>> Stashed changes
                     </form>
                 </div>
             </div>
@@ -105,21 +102,11 @@
                     
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
-<<<<<<< Updated upstream
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Il+Padrino" alt="Locandina" style="object-fit: cover; height: 350px;" />
-                            <div class="card-body p-4">
-=======
-                        <img class="card-img-top" src="assets/img/ILPADRINO.png" alt="Il Padrino">                            <div class="card-body p-4">
->>>>>>> Stashed changes
+                        <img class="card-img-top" src="assets/img/Interstellar.png" style="max-height: 400px; width: auto; object-fit: contain;">                            <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Il Padrino</h5>
-<<<<<<< HEAD
-                                     <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div>
-=======
+                                    <h5 class="fw-bolder">Interstellar</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.9</span>
->>>>>>> c84c462a690762da8c7f63a9627e173ad455faa3
                                     </div>
                                     <p class="text-light small mb-0 opacity-75">Drammatico • 1972</p>
                                 </div>
@@ -133,14 +120,9 @@
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novità</div>
-<<<<<<< Updated upstream
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Interstellar" alt="Locandina" style="object-fit: cover; height: 350px;" />
-=======
-                            <img class="card-img-top" src="assets/img/Interstellar.png" alt="Interstellar">
->>>>>>> Stashed changes
-                            <div class="card-body p-4">
+                            <img class="card-img-top" src="assets/img/ILPADRINO.png" style="max-height: 500px; width: auto; object-fit: contain;">                   <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Interstellar</h5>
+                                    <h5 class="fw-bolder">Il Padrino</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.7</span>
                                     </div>
@@ -156,21 +138,12 @@
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Cult</div>
-<<<<<<< Updated upstream
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Pulp+Fiction" alt="Locandina" style="object-fit: cover; height: 350px;" />
-=======
-                            <img class="card-img-top" src="assets/img/PulpFiction.png" alt="Pulp Fiction">
->>>>>>> Stashed changes
+                            <img class="card-img-top" src="assets/img/PulpFiction.png" style="max-height: 500px; width: auto; object-fit: contain;">
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Pulp Fiction</h5>
-<<<<<<< HEAD
-                                     <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div>
-=======
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.8</span>
->>>>>>> c84c462a690762da8c7f63a9627e173ad455faa3
                                     </div>
                                     <p class="text-light small mb-0 opacity-75">Thriller • 1994</p>
                                 </div>
@@ -183,11 +156,7 @@
 
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
-<<<<<<< Updated upstream
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=LOTR" alt="Locandina" style="object-fit: cover; height: 350px;" />
-=======
-                            <img class="card-img-top" src="assets/img/lotr.png" alt="Il Signore Degli Anelli">
->>>>>>> Stashed changes
+                            <img class="card-img-top" src="assets/img/lotr.png" style="max-height: 500px; width: auto; object-fit: contain;">
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Il Signore degli Anelli</h5>
@@ -205,7 +174,7 @@
                       <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Cult</div>
-                            <img class="card-img-top" src="assets/img/L'odio.png" alt="L'odio">
+                            <img class="card-img-top" src="assets/img/L'odio.png" style="max-height: 500px; width: auto; object-fit: contain;">
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">L'odio</h5>
@@ -223,7 +192,7 @@
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Cult</div>
-                            <img class="card-img-top" src="assets/img/seven.png">
+                            <img class="card-img-top" src="assets/img/seven.png"style="max-height: 500px; width: auto; object-fit: contain;">
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Seven</h5>

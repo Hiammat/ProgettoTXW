@@ -48,8 +48,7 @@
             <div class="container px-4 px-lg-5 my-5">
                 <div class="row gx-4 gx-lg-5 align-items-center">
                     <div class="col-md-6">  
-                    <img class="img-fluid" src="assets/img/lotr.png" style="max-width: 450px; height: auto;">
-                    </div>
+<img class="card-img-top mb-5 mb-md-0 rounded shadow" src="assets/img/lotr.png"  style="max-height: 600px; width: auto; object-fit: contain;" />                    </div>
                     <div class="col-md-6">
                         <div class="small mb-1 text-white">SKU: BST-498</div>
                         <h1 class="display-5 fw-bolder text-white">Il Signore Degli Anelli</h1>
