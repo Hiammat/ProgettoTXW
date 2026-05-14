@@ -2893,6 +2893,22 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: #198754;
   --bs-btn-disabled-border-color: #198754;
 }
+.btn-purple {
+  --bs-btn-color: #fff;
+  --bs-btn-bg:  #6f42c1;
+  --bs-btn-border-color:  #6f42c1;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #6f42c1;
+  --bs-btn-hover-border-color:  #6f42c1;
+  --bs-btn-focus-shadow-rgb: 60, 153, 110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg:    #6f42c1;
+  --bs-btn-active-border-color:    #6f42c1;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg:     #6f42c1;
+  --bs-btn-disabled-border-color:     #6f42c1;
+}
 
 .btn-info {
   --bs-btn-color: #000;
@@ -3114,6 +3130,23 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
   --bs-gradient: none;
 }
+.btn-outline-purple {
+  --bs-btn-color:    #6f42c1;
+  --bs-btn-border-color:    #6f42c1;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg:    #6f42c1;
+  --bs-btn-hover-border-color:    #6f42c1;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg:    #6f42c1;
+  --bs-btn-active-border-color:    #6f42c1;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color:    #6f42c1;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color:    #6f42c1;
+  --bs-gradient: none;
+}
+
 
 .btn-link {
   --bs-btn-font-weight: 400;
@@ -7050,6 +7083,10 @@ textarea.form-control-lg {
 .shadow-none {
   box-shadow: none !important;
 }
+.stelle {
+    color: #ffc107;
+    font-size: 1.3rem;
+}
 
 .position-static {
   position: static !important;
@@ -8061,6 +8098,10 @@ textarea.form-control-lg {
 .text-danger {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+}
+.text-purple {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-purple-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-light {
@@ -10823,4 +10864,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+  
+}
+.stelle {
+    color: #ffc107;
+    font-size: 1.3rem;
 }

@@ -51,6 +51,7 @@
                             </ul>
                         </li>
                     </ul>
+<<<<<<< Updated upstream
 					<div class="d-flex gap-2">
 					    <% 
 					        //!!!!!! CONTROLLO SESSIONE: Sostituisci "utenteLoggato" con il nome dell'attributo nel backend (oppure possiamo usare direttamente utenteLoggato) !!!!!!!!!
@@ -70,6 +71,14 @@
 					        
 					    <% } %>
 					</div>
+=======
+                    <form class="d-flex">
+                        <button class="btn btn-outline-purple" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Profilo
+                            <span class="badge bg-light text-dark ms-1 rounded-pill">0</span>
+                        </button>
+>>>>>>> Stashed changes
                     </form>
                 </div>
             </div>
@@ -96,8 +105,12 @@
                     
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
+<<<<<<< Updated upstream
                             <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Il+Padrino" alt="Locandina" style="object-fit: cover; height: 350px;" />
                             <div class="card-body p-4">
+=======
+                        <img class="card-img-top" src="assets/img/ILPADRINO.png" alt="Il Padrino">                            <div class="card-body p-4">
+>>>>>>> Stashed changes
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Il Padrino</h5>
 <<<<<<< HEAD
@@ -112,7 +125,7 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-light mt-auto" href="item.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="item.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
@@ -120,7 +133,11 @@
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novità</div>
+<<<<<<< Updated upstream
                             <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Interstellar" alt="Locandina" style="object-fit: cover; height: 350px;" />
+=======
+                            <img class="card-img-top" src="assets/img/Interstellar.png" alt="Interstellar">
+>>>>>>> Stashed changes
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Interstellar</h5>
@@ -131,7 +148,7 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="Interstellar.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
@@ -139,7 +156,11 @@
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Cult</div>
+<<<<<<< Updated upstream
                             <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Pulp+Fiction" alt="Locandina" style="object-fit: cover; height: 350px;" />
+=======
+                            <img class="card-img-top" src="assets/img/PulpFiction.png" alt="Pulp Fiction">
+>>>>>>> Stashed changes
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Pulp Fiction</h5>
@@ -155,14 +176,18 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="PulpFiction.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
+<<<<<<< Updated upstream
                             <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=LOTR" alt="Locandina" style="object-fit: cover; height: 350px;" />
+=======
+                            <img class="card-img-top" src="assets/img/lotr.png" alt="Il Signore Degli Anelli">
+>>>>>>> Stashed changes
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Il Signore degli Anelli</h5>
@@ -173,7 +198,43 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-light mt-auto" href="#">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="Lotr.jsp">Scheda film</a></div>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col mb-5">
+                        <div class="card h-100 shadow border-secondary bg-dark text-white">
+                            <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Cult</div>
+                            <img class="card-img-top" src="assets/img/L'odio.png" alt="L'odio">
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">L'odio</h5>
+                                     <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div>
+                                    </div>
+                                    <p class="text-light small mb-0 opacity-75">Thriller/Giallo • 1995</p>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="L'odio.jsp">Scheda film</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100 shadow border-secondary bg-dark text-white">
+                            <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Cult</div>
+                            <img class="card-img-top" src="assets/img/seven.png">
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Seven</h5>
+                                     <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div>
+                                    </div>
+                                    <p class="text-light small mb-0 opacity-75">Thriller/Giallo • 1995</p>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="seven.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>

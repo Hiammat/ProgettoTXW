@@ -38,6 +38,7 @@
                             </ul>
                         </li>
                     </ul>
+<<<<<<< Updated upstream
 					<div class="d-flex gap-2">
 					    <% 
 					        // CONTROLLO SESSIONE: Sostituisci "utenteLoggato" con il nome dell'attributo che userai nel backend
@@ -57,6 +58,15 @@
 					        
 					    <% } %>
 					</div>
+=======
+                    <form class="d-flex">
+                        <button class="btn btn-outline-purple" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+>>>>>>> Stashed changes
                 </div>
             </div>
         </nav>
@@ -69,14 +79,21 @@
 >>>>>>> c84c462a690762da8c7f63a9627e173ad455faa3
             <div class="container px-4 px-lg-5 my-5">
                 <div class="row gx-4 gx-lg-5 align-items-center">
+<<<<<<< Updated upstream
                     <div class="col-md-6 text-center text-md-start">
                         <img class="card-img-top mb-5 mb-md-0 rounded shadow" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Interstellar" alt="Locandina Film" style="max-height: 600px; width: auto; object-fit: cover;" />
                     </div>
                     
+=======
+                    <<div class="col-md-6">  
+                    <img class="img-fluid" src="assets/img/ILPADRINO.png" style="max-width: 450px; height: auto;">
+                    </div>
+>>>>>>> Stashed changes
                     <div class="col-md-6">
 <<<<<<< HEAD
                         <div class="small mb-1 text-white">SKU: BST-498</div>
                         <h1 class="display-5 fw-bolder text-white">Il Padrino</h1>
+<<<<<<< Updated upstream
                         <div class="fs-5 mb-5 text-white">
                             <span class="text-decoration-line-through">$45.00</span>
                             <span>$40.00</span>
@@ -102,6 +119,17 @@
                             <button class="btn btn-outline-light flex-shrink-0" type="button">
                                 <i class="bi-pencil-square me-1"></i>
                                 Scrivi Recensione
+=======
+                        <div class="fd-flex justify-content-center small text-warning mb-2">
+                          <i class="bi-star-fill"></i><i class="bi-star-fill"></i ><i class="bi-star-fill"></i ><i  class="bi-star-fill"></i ><i class="bi-star-fill"></i >
+                          <span>5/5</span>
+                        <p class="lead text-white">
+                        <div class="d-flex">
+                            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
+                            <button class="btn btn-outline-purple flex-shrink-0" type="button">
+                                <i class="bi-cart-fill me-1"></i>
+                                Add to cart
+>>>>>>> Stashed changes
                             </button>
                         </div>
                     </div>
