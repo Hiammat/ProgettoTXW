@@ -72,11 +72,11 @@
        
                 <div class="row gx-4 gx-lg-5 align-items-center">
                     <div class="col-md-6 text-center text-md-start">
-                        <img class="card-img-top mb-5 mb-md-0 rounded shadow" src="assets/img/PulpFiction.png"  style="max-height: 600px; width: auto; object-fit: contain;" />
+                        <img class="card-img-top mb-5 mb-md-0 rounded shadow" src="assets/img/mj.png"  style="max-height: 600px; width: auto; object-fit: contain;" />
                     </div>
                     <div class="col-md-6">
-                            <div class="small mb-1 text-white-50">Crimine/Dramma/Commedia/Azione • 1995 • 150 min</div>
-                        <h1 class="display-5 fw-bolder text-white mb-2">Pulp Fiction</h1>
+                            <div class="small mb-1 text-white-50">Musical • 2026 • 2h 7m</div>
+                        <h1 class="display-5 fw-bolder text-white mb-2">Michael</h1>
                         
                         <div class="d-flex align-items-center fs-5 mb-4 text-warning">
                             <i class="bi-star-fill me-2"></i>
@@ -85,7 +85,7 @@
                         </div>
                         
                         <h5 class="fw-bold text-white mb-3">Trama</h5>
-                        <p class="lead text-white-50 mb-4">Pulp Fiction &egrave; un film cult che intreccia storie di criminali, pugili e personaggi fuori dagli schemi in una Los Angeles ironica e violenta. Con dialoghi memorabili, ritmo non lineare e uno stile inconfondibile, il film ha segnato profondamente il cinema degli anni &apos;90.</p>                        
+<p class="lead text-white-50 mb-4">Michael &egrave; un biopic musicale dedicato alla vita e alla carriera di Michael Jackson, uno degli artisti pi&ugrave; influenti della storia della musica. Il film ripercorre il suo straordinario percorso tra successo, talento e controversie, offrendo uno sguardo spettacolare e intenso dietro la figura del Re del Pop.</p>                        
                         <div class="d-flex gap-3">
                             <button class="btn btn-lightPurple flex-shrink-0" type="button">
                                 <i class="bi-bookmark-plus me-1"></i>
@@ -111,7 +111,7 @@
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary text-white" style="background-color: #1a1a1a;">
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Inception" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="inception.png"  style="object-fit: contain; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Inception</h5>
@@ -122,17 +122,17 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-light mt-auto" href="item.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="inception.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary text-white" style="background-color: #1a1a1a;">
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Gravity" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="PulpFiction.png" style="object-fit: contain; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Gravity</h5>
+                                    <h5 class="fw-bolder">Pulp Fiction</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.2</span>
                                     </div>
@@ -140,43 +140,43 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-light mt-auto" href="item.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="PulpFiction.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary text-white" style="background-color: #1a1a1a;">
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=The+Martian" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="L'odio.png"  style="object-fit: cover; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Sopravvissuto - The Martian</h5>
+                                    <h5 class="fw-bolder">L'odio</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.5</span>
                                     </div>
-                                    <p class="text-light small mb-0 opacity-75">Fantascienza • 2015</p>
+                                    <p class="text-light small mb-0 opacity-75">Drama • 1996</p>
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-light mt-auto" href="item.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="L'odio.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary text-white" style="background-color: #1a1a1a;">
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Arrival" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="Interstellar.png" style="object-fit: cover; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Arrival</h5>
+                                    <h5 class="fw-bolder">Interstellar</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.6</span>
                                     </div>
-                                    <p class="text-light small mb-0 opacity-75">Fantascienza • 2016</p>
+                                    <p class="text-light small mb-0 opacity-75">Fantascienza • 2014</p>
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-light mt-auto" href="item.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="item.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>

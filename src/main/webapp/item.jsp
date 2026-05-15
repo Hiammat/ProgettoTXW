@@ -43,8 +43,8 @@
 					        // CONTROLLO SESSIONE: Sostituisci "utenteLoggato" con il nome dell'attributo che userai nel backend
 					        if (session.getAttribute("utenteLoggato") == null) { 
 					    %>
-					        <a href="login.jsp" class="btn btn-outline-light">Accedi</a>
-					        <a href="registrazione.jsp" class="btn btn-success">Registrati</a>
+					        <a href="login.jsp" class="btn btn-lightPurple">Accedi</a>
+					        <a href="registrazione.jsp" class="btn btn-lightPurple">Registrati</a>
 					        
 					    <% } else { %>
 					    
@@ -92,7 +92,7 @@
                                 <i class="bi-bookmark-plus me-1"></i>
                                 Salva nei Preferiti
                             </button>
-                            <button class="btn btn-outline-purple flex-shrink-0" type="button">
+                            <button class="btn btn-lightPurple flex-shrink-0" type="button">
                                 <i class="bi-pencil-square me-1"></i>
                                 Scrivi Recensione
                                 </button>
@@ -112,7 +112,7 @@
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary text-white" style="background-color: #1a1a1a;">
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Inception" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="inception.png"  style="object-fit: contain; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Inception</h5>
@@ -123,17 +123,17 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-light mt-auto" href="item.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="inception.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary text-white" style="background-color: #1a1a1a;">
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Gravity" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="PulpFiction.png" style="object-fit: contain; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Gravity</h5>
+                                    <h5 class="fw-bolder">Pulp Fiction</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.2</span>
                                     </div>
@@ -141,43 +141,43 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-light mt-auto" href="item.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="PulpFiction.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary text-white" style="background-color: #1a1a1a;">
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=The+Martian" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="L'odio.png"  style="object-fit: cover; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Sopravvissuto - The Martian</h5>
+                                    <h5 class="fw-bolder">L'odio</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.5</span>
                                     </div>
-                                    <p class="text-light small mb-0 opacity-75">Fantascienza • 2015</p>
+                                    <p class="text-light small mb-0 opacity-75">Drama • 1996</p>
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-light mt-auto" href="item.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="L'odio.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary text-white" style="background-color: #1a1a1a;">
-                            <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Arrival" alt="Locandina" style="object-fit: cover; height: 350px;" />
+                            <img class="card-img-top" src="seven.png" style="object-fit: cover; height: 350px;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Arrival</h5>
+                                    <h5 class="fw-bolder">Seven</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.6</span>
                                     </div>
-                                    <p class="text-light small mb-0 opacity-75">Fantascienza • 2016</p>
+                                    <p class="text-light small mb-0 opacity-75">Thriller/Giallo • 1995</p>
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-light mt-auto" href="item.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="seven.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>

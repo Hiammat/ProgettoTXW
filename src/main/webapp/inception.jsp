@@ -72,11 +72,11 @@
        
                 <div class="row gx-4 gx-lg-5 align-items-center">
                     <div class="col-md-6 text-center text-md-start">
-                        <img class="card-img-top mb-5 mb-md-0 rounded shadow" src="assets/img/PulpFiction.png"  style="max-height: 600px; width: auto; object-fit: contain;" />
+                        <img class="card-img-top mb-5 mb-md-0 rounded shadow" src="assets/img/inception.png"  style="max-height: 600px; width: auto; object-fit: contain;" />
                     </div>
                     <div class="col-md-6">
-                            <div class="small mb-1 text-white-50">Crimine/Dramma/Commedia/Azione • 1995 • 150 min</div>
-                        <h1 class="display-5 fw-bolder text-white mb-2">Pulp Fiction</h1>
+                            <div class="small mb-1 text-white-50">Sci-fiAzione • 2010 • 2h 28m</div>
+                        <h1 class="display-5 fw-bolder text-white mb-2">Inception</h1>
                         
                         <div class="d-flex align-items-center fs-5 mb-4 text-warning">
                             <i class="bi-star-fill me-2"></i>
@@ -85,7 +85,8 @@
                         </div>
                         
                         <h5 class="fw-bold text-white mb-3">Trama</h5>
-                        <p class="lead text-white-50 mb-4">Pulp Fiction &egrave; un film cult che intreccia storie di criminali, pugili e personaggi fuori dagli schemi in una Los Angeles ironica e violenta. Con dialoghi memorabili, ritmo non lineare e uno stile inconfondibile, il film ha segnato profondamente il cinema degli anni &apos;90.</p>                        
+                        <p class="lead text-white-50 mb-4">In un futuro imprecisato, un drastico cambiamento climatico ha colpito duramente l'agricoltura. Un gruppo di scienziati, sfruttando un "whormhole" per superare le limitazioni fisiche del viaggio spaziale, intraprende un viaggio interstellare alla ricerca di una nuova casa per l'umanità.</p>
+                        
                         <div class="d-flex gap-3">
                             <button class="btn btn-lightPurple flex-shrink-0" type="button">
                                 <i class="bi-bookmark-plus me-1"></i>
