@@ -68,7 +68,7 @@
         </nav>
         <!-- Product section-->
         <section class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
- <section class="py-5"><div class="container px-4 px-lg-5 my-5">
+         <section class="py-5"><div class="container px-4 px-lg-5 my-5">
        
                 <div class="row gx-4 gx-lg-5 align-items-center">
                     <div class="col-md-6 text-center text-md-start">
@@ -88,36 +88,28 @@
                         <p class="lead text-white-50 mb-4">In un futuro imprecisato, un drastico cambiamento climatico ha colpito duramente l'agricoltura. Un gruppo di scienziati, sfruttando un "whormhole" per superare le limitazioni fisiche del viaggio spaziale, intraprende un viaggio interstellare alla ricerca di una nuova casa per l'umanità.</p>
                         
                         <div class="d-flex gap-3">
-                            <button class="btn btn-light flex-shrink-0" type="button">
+                            <button class="btn btn-lightPurple flex-shrink-0" type="button">
                                 <i class="bi-bookmark-plus me-1"></i>
                                 Salva nei Preferiti
                             </button>
-                            <button class="btn btn-outline-light flex-shrink-0" type="button">
+                            <button class="btn btn-outline-purple flex-shrink-0" type="button">
                                 <i class="bi-pencil-square me-1"></i>
                                 Scrivi Recensione
-                        <div class="fd-flex justify-content-center small text-warning mb-2">
-                          <i class="bi-star-fill"></i><i class="bi-star-fill"></i ><i class="bi-star-fill"></i ><i  class="bi-star-fill"></i ><i class="bi-star-fill"></i >
-                          <span>5/5</span>
+                                </button>
                         <p class="lead text-white">
-                        <div class="d-flex">
-                            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                            <button class="btn btn-outline-purple flex-shrink-0" type="button">
-                                <i class="bi-cart-fill me-1"></i>
-                                Add to cart
-                            </button>
-                        </div>
                     </div>
                 </div>
             </div>
+            </div>
+             </section>
         </section>
         <!-- Related items section-->
         <section class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
             <div class="container px-4 px-lg-5 mt-5 text-white">
-                <h2 class="fw-bolder mb-4">Related products</h2><section class="py-5 bg-dark">
+                <h2 class="fw-bolder mb-4">Related products</h2><section class="py-5 bg-dark"> 
             <div class="container px-4 px-lg-5 mt-5">
                 <h2 class="fw-bolder mb-4 text-white">Potrebbero piacerti anche...</h2>
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary text-white" style="background-color: #1a1a1a;">
                             <img class="card-img-top" src="https://dummyimage.com/600x900/212529/ffffff.jpg?text=Inception" alt="Locandina" style="object-fit: cover; height: 350px;" />
@@ -189,14 +181,13 @@
                             </div>
                         </div>
                     </div>
-
+                    </div>
+                    </div>
+  </section>
                 </div>
-            </div>
-        </section>
+             </section>
         <!-- Footer-->
-        <footer class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
-            <div class="container"><p class="m-0 text-center text-white-50">Copyright &copy; Your Website 2023</p></div>
-
+       
         <footer class="py-5 border-top border-secondary" style="background-color: #0B0B0D;">
             <div class="container"><p class="m-0 text-center text-white-50">Copyright &copy; Ciak Club 2026</p></div>
         </footer>

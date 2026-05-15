@@ -26,7 +26,7 @@
                 transition: color 0.3s;
             }
             .bounce-icon:hover {
-                color: #FFD700 !important; 
+                color: #6f42c1 !important; 
             }
         </style>
     </head>
