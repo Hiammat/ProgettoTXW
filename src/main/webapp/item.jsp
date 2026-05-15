@@ -92,10 +92,10 @@
                                 <i class="bi-bookmark-plus me-1"></i>
                                 Salva nei Preferiti
                             </button>
-                            <button class="btn btn-lightPurple flex-shrink-0" type="button">
-                                <i class="bi-pencil-square me-1"></i>
-                                Scrivi Recensione
-                                </button>
+                           <a href="recensione.jsp" class="btn btn-lightPurple flex-shrink-0">
+                          <i class="bi-pencil-square me-1"></i>
+                           Scrivi Recensione
+                          </a>
                         <p class="lead text-white">
                     </div>
                 </div>
