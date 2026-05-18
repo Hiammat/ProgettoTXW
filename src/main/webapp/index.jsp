@@ -53,7 +53,7 @@
                     </ul>
 					<div class="d-flex gap-2">
 					    <% 
-					        //!!!!!! CONTROLLO SESSIONE: Sostituisci "utenteLoggato" con il nome dell'attributo nel backend (oppure possiamo usare direttamente utenteLoggato) !!!!!!!!!
+					        // CONTROLLO SESSIONE
 					        if (session.getAttribute("utenteLoggato") == null) { 
 					    %>
 					        <a href="login.jsp" class="btn btn-lightPurple">Accedi</a>
@@ -70,13 +70,6 @@
 					        
 					    <% } %>
 					</div>
-                    <form class="d-flex">
-                        <button class="btn btn-lightPurple" type="submit">
-                            <i class="bi-cart-fill me-1"></i>
-                            Profilo
-                            <span class="badge bg-light text-dark ms-1 rounded-pill">0</span>
-                        </button>
-                    </form>
                 </div>
             </div>
         </nav>
@@ -102,13 +95,14 @@
                     
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
-                        <img class="card-img-top" src="assets/img/Interstellar.png" style="max-height: 400px; width: auto; object-fit: contain;">                            <div class="card-body p-4">
+                            <img class="card-img-top" src="assets/img/Interstellar.png" style="max-height: 400px; width: auto; object-fit: contain;">                            
+                            <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Interstellar</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.9</span>
                                     </div>
-                                    <p class="text-light small mb-0 opacity-75">Drammatico • 1972</p>
+                                    <p class="text-light small mb-0 opacity-75">Fantascienza • 2014</p>
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -120,17 +114,18 @@
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Novità</div>
-                            <img class="card-img-top" src="assets/img/ILPADRINO.png" style="max-height: 500px; width: auto; object-fit: contain;">                   <div class="card-body p-4">
+                            <img class="card-img-top" src="assets/img/ILPADRINO.png" style="max-height: 500px; width: auto; object-fit: contain;">                   
+                            <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Il Padrino</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.7</span>
                                     </div>
-                                    <p class="text-light small mb-0 opacity-75">Giallo/Crime • 1995</p>
+                                    <p class="text-light small mb-0 opacity-75">Giallo/Crime • 1972</p>
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="Ilpadrino.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="item.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
@@ -149,7 +144,7 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="PulpFiction.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="item.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
@@ -159,7 +154,7 @@
                             <img class="card-img-top" src="assets/img/lotr.png" style="max-height: 500px; width: auto; object-fit: contain;">
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <h5 class="fw-bolder">Il Signore degli Anelli: La Compagnia dell&apos;Anello &egrave;</h5>
+                                    <h5 class="fw-bolder">Il Signore degli Anelli: La Compagnia dell&apos;Anello</h5>
                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
                                         <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.9</span>
                                     </div>
@@ -167,47 +162,50 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="Lotr.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="item.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
-                      <div class="col mb-5">
+                    
+                    <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Cult</div>
                             <img class="card-img-top" src="assets/img/L'odio.png" style="max-height: 500px; width: auto; object-fit: contain;">
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">L'odio</h5>
-                                     <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div>
+                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
+                                        <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.5</span>
                                     </div>
-                                    <p class="text-light small mb-0 opacity-75">Thriller/Giallo • 1995</p>
+                                    <p class="text-light small mb-0 opacity-75">Dramma • 1995</p>
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="L'odio.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="item.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Cult</div>
-                            <img class="card-img-top" src="assets/img/seven.png"style="max-height: 500px; width: auto; object-fit: contain;">
+                            <img class="card-img-top" src="assets/img/seven.png" style="max-height: 500px; width: auto; object-fit: contain;">
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Seven</h5>
-                                     <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div><div class="bi-star-fill"></div>
+                                     <div class="d-flex justify-content-center align-items-center small text-warning mb-2">
+                                        <i class="bi-star-fill"></i><span class="ms-1 text-light fw-bold">4.6</span>
                                     </div>
                                     <p class="text-light small mb-0 opacity-75">Thriller/Giallo • 1995</p>
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="seven.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="item.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
-                     <div class="col mb-5">
+                    
+                    <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Più visti</div>
                             <img class="card-img-top" src="assets/img/inception.png" style="max-height: 500px; width: auto; object-fit: contain;">
@@ -221,10 +219,11 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="PulpFiction.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="item.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col mb-5">
                         <div class="card h-100 shadow border-secondary bg-dark text-white">
                             <div class="badge bg-danger text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">Novità</div>
@@ -239,7 +238,7 @@
                                 </div>
                             </div>
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="mj.jsp">Scheda film</a></div>
+                                <div class="text-center"><a class="btn btn-lightPurple mt-auto" href="item.jsp">Scheda film</a></div>
                             </div>
                         </div>
                     </div>
